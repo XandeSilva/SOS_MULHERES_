@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(150,0,255);
+    background: linear-gradient(120deg, rgba(150,0,255,1) 0%, rgba(174,186,248,1) 100%);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff !important;
+}
+#box{
+    height: 70vh;
+    border: solid 5px #fff;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#msg{
+    height: 100%;
+    padding: 30px;
+}
+#msg p{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+} 
+#send{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 20px;
+}
+#iconSend{
+    background-color: #9600ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+@media (max-width: 995px){
+    .col-lg-1{
+        display: none;
+    }
+    #fix{
+        width: 100%;
+        margin-left: 15px;
+    }
+}
+.text-style {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
